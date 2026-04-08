@@ -55,10 +55,10 @@ class Config:
     """Bot Configuration"""
     
     # Bot Token from @BotFather
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "8328389530:AAGdPNzgVS5k-r40q6tZ2FpzzQ4X6d5aT1Y")
     
     # Admin IDs (comma separated in .env)
-    ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "").split(",") if id.strip()]
+    ADMIN_IDS = [int(id.strip()) for id in os.getenv("7997066032", "").split(",") if id.strip()]
     
     # osint API Key
     API_KEY = os.getenv("API_KEY", "Errnkeor01")  # Default key from module
